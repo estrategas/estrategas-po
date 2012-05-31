@@ -4,6 +4,8 @@ require('libs/Smarty.class.php');
 include('libs/background.php');
 include('libs/db.php');
 
+$hola = "hola";
+
 if(isset($_POST['submitted'])){
 	
 	$tipo = htmlentities( $_POST['tipo'] );
